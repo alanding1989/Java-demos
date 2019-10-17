@@ -1,0 +1,7 @@
+// war格式打包
+apply plugin: 'war'
+
+// 定义依赖项目model
+dependencies {
+    compile project(':model')
+}

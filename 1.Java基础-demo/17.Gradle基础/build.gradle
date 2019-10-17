@@ -1,0 +1,30 @@
+// 所有项目的定义
+allprojects {
+    apply plugin: 'java'
+
+    group 'com.china.alan'
+    version '1.0-SNAPSHOT'
+
+    // Java 源码版本
+    sourceCompatibility = 1.8
+
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+
+    dependencies {
+        testCompile group: 'junit', name: 'junit', version: '4.12'
+    }
+}
+
+subprojects {
+    dependencies {
+        compile 'ch.qos.logback:logback-classic:1.2.3'
+    }
+}
+
+// 定义本项目依赖哪个子项目
+dependencies {
+    compile project(":web")
+}

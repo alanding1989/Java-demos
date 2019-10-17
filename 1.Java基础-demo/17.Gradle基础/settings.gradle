@@ -1,0 +1,6 @@
+rootProject.name = 'alanding'
+
+// 包含子项目
+include 'web'
+include 'model'
+
