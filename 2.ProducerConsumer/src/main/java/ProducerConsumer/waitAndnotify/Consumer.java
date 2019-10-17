@@ -1,5 +1,6 @@
-package ProducerConsumer;
+package ProducerConsumer.waitAndnotify;
 
+import ProducerConsumer.AbstractProducerConsumer;
 import java.util.Vector;
 
 /**

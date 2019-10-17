@@ -1,5 +1,6 @@
-package ProducerConsumer;
+package ProducerConsumer.waitAndnotify;
 
+import ProducerConsumer.AbstractProducerConsumer;
 import java.util.Vector;
 
 /**
@@ -24,6 +25,8 @@ public class Producer extends AbstractProducerConsumer {
                 Thread.sleep(SLEEPTIME);
 
                 // 队列满了，就阻塞当前线程
+                // 如果这用 if，当队列满了，wait()阻塞当前线程，之后恢复继续运行时，就会接着运行下面同步的代码块，
+                // 没有进行队列大小的判断。
                 while (sharedQueue.size() == SIZE) {
                     synchronized (sharedQueue) {
                         System.out.println(
