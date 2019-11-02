@@ -134,6 +134,6 @@ public abstract class AbstractTestBefore {
     getTestMethodName(StackTraceElement[] stackTrace) {
         return Arrays.stream(stackTrace).map(StackTraceElement::getMethodName)
                      .filter(methodName -> methodName.startsWith("test"))
-                     .findFirst().orElse(null);
+                     .findFirst().orElseThrow(NullPointerException::new);
     }
 }

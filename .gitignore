@@ -42,8 +42,8 @@ generate/
 *.kdev4
 
 # Build targets
-/target
-*/target
+target/
+*/target/
 
 # Report directories
 /reports
