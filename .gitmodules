@@ -1,9 +1,9 @@
 [submodule "0.Seed-project/code-generator"]
 	path = 0.Seed-project/code-generator
-	url = git@github.com:zhengqingya/code-generator.git
+  url = git@github.com:alanding1989/code-generator.git
 [submodule "0.Seed-project/spring-boot-api-project-seed"]
 	path = 0.Seed-project/spring-boot-api-project-seed
-	url = git@github.com:lihengming/spring-boot-api-project-seed.git
+  url = git@github.com:alanding1989/spring-boot-api-project-seed.git
 
 [submodule "6.Linux-system-base"]
 	path = 6.Linux-system-base
@@ -12,7 +12,7 @@
 
 [submodule "5.FrameWorks/spring-boot-demo"]
 	path = 5.FrameWorks/spring-boot-demo
-	url = git@githjb.com:alanding1989/spring-boot-demo.git
+  url = git@github.com:xkcoding/spring-boot-demo.git
 
 [submodule "5.FrameWorks/spring-mvc-parent"]
 	path = 5.FrameWorks/spring-mvc-parent
@@ -37,6 +37,7 @@
 [submodule "1.Java基础-demo/Scala"]
 	path = 1.Java基础-demo/Scala
 	url = git@github.com:alanding1989/Pragmatic-Scala.git
+	branch = sbt
 
 [submodule "3.ProgramModel/Cpp/DesignPattern"]
 	path = 3.ProgramModel/Cpp/DesignPattern
@@ -44,3 +45,4 @@
 [submodule "3.ProgramModel/Java/java-design-patterns"]
 	path = 3.ProgramModel/Java/java-design-patterns
 	url = git@github.com:alanding1989/java-design-patterns.git
+

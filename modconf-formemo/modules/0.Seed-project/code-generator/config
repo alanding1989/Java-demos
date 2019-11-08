@@ -4,8 +4,11 @@
 	bare = false
 	logallrefupdates = true
 	worktree = ../../../../0.Seed-project/code-generator
-[remote "origin"]
+[remote "upstream"]
 	url = git@github.com:zhengqingya/code-generator.git
+	fetch = +refs/heads/*:refs/remotes/upstream/*
+[remote "origin"]
+  url = git@github.com:alanding1989/code-generator.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
 [branch "master"]
 	remote = origin

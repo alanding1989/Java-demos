@@ -5,10 +5,10 @@
 	logallrefupdates = true
 	worktree = ../../../../5.FrameWorks/spring-boot-demo
 [remote "upstream"]
-	url = git@githjb.com:xkcoding/spring-boot-demo.git
+  url = git@github.com:xkcoding/spring-boot-demo.git
 	fetch = +refs/heads/*:refs/remotes/upstream/*
 [remote "origin"]
-	url = git@githjb.com:alanding1989/spring-boot-demo.git
+	url = git@github.com:alanding1989/spring-boot-demo.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
 [branch "master"]
 	remote = origin

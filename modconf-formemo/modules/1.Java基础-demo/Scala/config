@@ -13,3 +13,6 @@
 [branch "gh-pages"]
 	remote = origin
 	merge = refs/heads/gh-pages
+[branch "sbt"]
+	remote = origin
+	merge = refs/heads/sbt
