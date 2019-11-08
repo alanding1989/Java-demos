@@ -12,7 +12,8 @@
 
 [submodule "5.FrameWorks/spring-boot-demo"]
 	path = 5.FrameWorks/spring-boot-demo
-	url = git@github.com:xkcoding/spring-boot-demo.git
+	url = git@githjb.com:alanding1989/spring-boot-demo.git
+
 [submodule "5.FrameWorks/spring-mvc-parent"]
 	path = 5.FrameWorks/spring-mvc-parent
 	url = git@github.com:alanding1989/spring-mvc-parent.git
@@ -40,4 +41,6 @@
 [submodule "3.ProgramModel/Cpp/DesignPattern"]
 	path = 3.ProgramModel/Cpp/DesignPattern
 	url = git@github.com:alanding1989/DesignPattern.git
-
+[submodule "3.ProgramModel/Java/java-design-patterns"]
+	path = 3.ProgramModel/Java/java-design-patterns
+	url = git@github.com:alanding1989/java-design-patterns.git
