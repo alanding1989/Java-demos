@@ -1,0 +1,15 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	worktree = ../../../../1.Java基础-demo/Scala
+[remote "upstream"]
+  url = git@github.com:ReactivePlatform/Pragmatic-Scala.git
+	fetch = +refs/heads/*:refs/remotes/upstream/*
+[remote "origin"]
+	url = git@github.com:alanding1989/Pragmatic-Scala.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "gh-pages"]
+	remote = origin
+	merge = refs/heads/gh-pages

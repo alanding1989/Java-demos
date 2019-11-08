@@ -8,13 +8,13 @@
 
 
 
-git submodule add git@github.com:lihengming/spring-boot-api-project-seed.git
-git submodule add git@github.com:zhengqingya/code-generator.git
+git remote add upstream git@github.com:lihengming/spring-boot-api-project-seed.git
+git remote add upstream git@github.com:zhengqingya/code-generator.git
 
-git submodule add git@github.com:cicadasmile/linux-system-base.git
+git remote add upstream git@github.com:cicadasmile/linux-system-base.git
 
-git submodule add git@github.com:cicadasmile/spring-mvc-parent.git
-git submodule add git@github.com:cicadasmile/spring-boot-base.git
-git submodule add git@github.com:cicadasmile/spring-cloud-base.git
-git submodule add git@github.com:cicadasmile/middle-ware-parent.git
-git submodule add git@github.com:xkcoding/spring-boot-demo.git
+git remote add upstream git@github.com:cicadasmile/spring-mvc-parent.git
+git remote add upstream git@github.com:cicadasmile/spring-boot-base.git
+git remote add upstream git@github.com:cicadasmile/spring-cloud-base.git
+git remote add upstream git@github.com:cicadasmile/middle-ware-parent.git
+git remote add upstream git@github.com:xkcoding/spring-boot-demo.git

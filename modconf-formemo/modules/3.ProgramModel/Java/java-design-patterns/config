@@ -1,0 +1,15 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	worktree = ../../../../../3.ProgramModel/Java/java-design-patterns
+[remote "upstream"]
+  url = git@github.com:iluwatar/java-design-patterns.git
+	fetch = +refs/heads/*:refs/remotes/upstream/*
+[remote "origin"]
+	url = git@github.com:alanding1989/java-design-patterns.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
