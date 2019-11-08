@@ -1,7 +1,6 @@
 [submodule "0.Seed-project/code-generator"]
 	path = 0.Seed-project/code-generator
 	url = git@github.com:zhengqingya/code-generator.git
-
 [submodule "0.Seed-project/spring-boot-api-project-seed"]
 	path = 0.Seed-project/spring-boot-api-project-seed
 	url = git@github.com:lihengming/spring-boot-api-project-seed.git
@@ -14,28 +13,31 @@
 [submodule "5.FrameWorks/spring-boot-demo"]
 	path = 5.FrameWorks/spring-boot-demo
 	url = git@github.com:xkcoding/spring-boot-demo.git
-
 [submodule "5.FrameWorks/spring-mvc-parent"]
 	path = 5.FrameWorks/spring-mvc-parent
 	url = git@github.com:alanding1989/spring-mvc-parent.git
-
 [submodule "5.FrameWorks/spring-boot-base"]
 	path = 5.FrameWorks/spring-boot-base
 	url = git@github.com:alanding1989/spring-boot-base.git
-
 [submodule "5.FrameWorks/spring-cloud-base"]
 	path = 5.FrameWorks/spring-cloud-base
 	url = git@github.com:alanding1989/spring-cloud-base.git
-
 [submodule "5.FrameWorks/middle-ware-parent"]
 	path = 5.FrameWorks/middle-ware-parent
 	url = git@github.com:alanding1989/middle-ware-parent.git
 
 
-[submodule "3.ProgramModel/cpp/DesignPattern"]
-	path = 3.ProgramModel/cpp/DesignPattern
+[submodule "1.Java基础-demo/Rust-demos/rust-learn"]
+	path = 1.Java基础-demo/Rust-demos/rust-learn
+	url = git@github.com:alanding1989/rust-learn.git
+[submodule "1.Java基础-demo/Rust-demos/rust-by-example"]
+	path = 1.Java基础-demo/Rust-demos/rust-by-example
+	url = git@github.com:alanding1989/rust-by-example.git
+[submodule "1.Java基础-demo/Scala"]
+	path = 1.Java基础-demo/Scala
+	url = git@github.com:alanding1989/Pragmatic-Scala.git
+
+[submodule "3.ProgramModel/Cpp/DesignPattern"]
+	path = 3.ProgramModel/Cpp/DesignPattern
 	url = git@github.com:alanding1989/DesignPattern.git
 
-[submodule "3.ProgramModel/java/src/java-design-patterns"]
-	path = 3.ProgramModel/java/src/java-design-patterns
-	url = git@github.com:alanding1989/java-design-patterns.git
