@@ -1,8 +1,8 @@
 package proxy.dynamicProxy;
 
-import java.lang.reflect.InvocationHandler;
-import java.lang.reflect.Proxy;
-import java.util.Objects;
+import proxy.dynamicProxy.subject.RealSubject;
+import proxy.dynamicProxy.subject.Subject;
+import proxy.dynamicProxy.util.InterceptorChain;
 
 /**
  *  Author      :   AlanDing
@@ -11,20 +11,30 @@ import java.util.Objects;
  *  Description :
  */
 
+// JDK动态代理只能代理接口方法，无法代理类
 public class ProxyClient {
-    public static void main(String[] args) {
-        // JDK动态代理只能代理接口方法，无法代理类
-        Subject proxy = (Subject) createProxy(RealSubject.class,
-                                              new ProxyHandler(new RealSubject()),
-                                              Subject.class);
-        proxy.showTheName();
-    }
+	private static InterceptorChain interceptorChain = new InterceptorChain();
 
-    private static Object createProxy(Class<?> clazz, InvocationHandler handler, Class<?>... infs) {
-        Objects.requireNonNull(infs);
-        Objects.requireNonNull(handler);
-        ClassLoader classLoader = clazz.getClassLoader();
-        return Proxy.newProxyInstance(classLoader, infs, handler);
-    }
+	static {
+		// 修改系统参数之后可以看到com.sun.proxy文件夹下生成了$Proxy.class的代理文件
+		// System.getProperties().put("sun.misc.ProxyGenerator.saveGeneratedFiles", "true");
+
+		// 初始化环境及配置
+		interceptorChain.addInterceptors(new MyInterceptor());
+	}
+
+	public static void main(String[] args) {
+
+		newSubject().fuckTheProxy();
+
+	}
+
+
+	// 封装具体拦截流程，返回一个被拦截实例
+	private static Subject newSubject() {
+		RealSubject target = new RealSubject();
+
+		return (Subject) interceptorChain.createProxy(target);
+	}
 };
 

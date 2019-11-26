@@ -1,5 +1,5 @@
 
-package proxy.dynamicProxy;
+package proxy.dynamicProxy.subject;
 
 /**
  *  Author      :   AlanDing
