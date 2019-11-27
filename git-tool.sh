@@ -25,6 +25,6 @@ if [ $1 == 'gl' ]; then
 elif [ $1 == 'gp' ]; then
   git submodule foreach 'git push upstream master || git push upstream sbt ||:'
 elif [ $1 == 'copy' ]; then
-  cp -rf "$(pwd)/modconf-formemo/modules" "$(pwd)/.git/"
+  cp -rf "$(pwd)/modconfig-formemo/modules" "$(pwd)/.git/"
 fi
 
