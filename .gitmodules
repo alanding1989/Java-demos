@@ -28,6 +28,9 @@
 	url = git@github.com:alanding1989/middle-ware-parent.git
 
 
+[submodule "1.Java基础-demo/algorithm"]
+	path = 1.Java基础-demo/algorithm
+	url = git@github.com:alanding1989/algo.git
 [submodule "1.Java基础-demo/Rust-demos/rust-learn"]
 	path = 1.Java基础-demo/Rust-demos/rust-learn
 	url = git@github.com:alanding1989/rust-learn.git
@@ -38,9 +41,6 @@
 	path = 1.Java基础-demo/Scala
 	url = git@github.com:alanding1989/Pragmatic-Scala.git
 	branch = sbt
-[submodule "1.Java基础-demo/algorithm"]
-	path = 1.Java基础-demo/algorithm
-	url = git@github.com:alanding1989/algo.git
 
 [submodule "3.ProgramModel/Cpp/DesignPattern"]
 	path = 3.ProgramModel/Cpp/DesignPattern
