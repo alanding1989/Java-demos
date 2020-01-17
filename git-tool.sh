@@ -20,6 +20,11 @@
 # git remote add upstream git@github.com:xkcoding/spring-boot-demo.git
 
 
+# [submodule "1.Java基础-demo/algorithm"]
+  # path = 1.Java基础-demo/algorithm
+  # url = git@github.com:wangzheng0822/algo.git
+
+
 if [ $1 == 'gl' ]; then
   git submodule foreach 'git pull upstream master || git pull upstream sbt ||:'
 elif [ $1 == 'gp' ]; then
